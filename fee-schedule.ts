@@ -7,7 +7,7 @@ export class FeeSchedule {
     numberOfPayments: number;
     discountAmount?: number;
     discountPercent?: number;
-    description: string;
+    description?: string;
     active: boolean;
 
     members: Member[];

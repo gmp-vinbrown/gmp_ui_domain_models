@@ -7,7 +7,6 @@ export * from './event-fee-group';
 export * from './event-registration';
 export * from './event-type';
 export * from './event';
-export * from './fee-group';
 export * from './fee-schedule';
 export * from './level';
 export * from './member-event-activity';

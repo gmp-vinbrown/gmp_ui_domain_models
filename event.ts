@@ -4,20 +4,14 @@ import { Attendance } from './attendance';
 import { EventActivity } from './event-activity';
 import { EventRegistration } from './event-registration';
 import { Schedule } from './schedule';
+import { AuditableEntity } from './auditable-entity';
 
-export class Event {
-    constructor() {
-        this.attendance = [];
-        this.eventActivities = [];
-        this.registrations = [];
-        this.schedules = [];
-        this.feeGroups = [];
-    }
-
+export class Event extends AuditableEntity {
+    
     eventId: number;
     eventTypeId: number;
     name: string;
-    description: string;
+    description?: string;
     schoolLocationId: number;
     eventStartDate: Date;
     eventEndDate?: Date;
@@ -28,4 +22,13 @@ export class Event {
     eventActivities: EventActivity[];
     registrations: EventRegistration[];
     schedules: Schedule[];
+
+    constructor() {
+        super();
+        this.attendance = [];
+        this.eventActivities = [];
+        this.registrations = [];
+        this.schedules = [];
+        this.feeGroups = [];
+    }
 }

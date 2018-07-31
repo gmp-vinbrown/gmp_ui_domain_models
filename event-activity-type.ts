@@ -4,13 +4,13 @@ import { EventActivity } from './event-activity';
 export class EventActivityType {
     eventActivityTypeId: number;
     name: string;
-    description: string;
+    description?: string;
 
-    attendanceEventActivityType: AttendanceEventActivityType[];
-    eventActivity: EventActivity[];
+    attendanceEventActivityTypes: AttendanceEventActivityType[];
+    eventActivities: EventActivity[];
 
     constructor() {
-        this.attendanceEventActivityType = [];
-        this.eventActivity = []
+        this.attendanceEventActivityTypes = [];
+        this.eventActivities = []
     }
 }

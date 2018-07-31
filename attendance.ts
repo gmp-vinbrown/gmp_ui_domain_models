@@ -6,10 +6,10 @@ export class Attendance {
     public memberId: number;
     public eventId: number;
     public eventDate: Date;
-    public notes: string;
+    public notes?: string;
     
-    public event: Event
-    public member: Member
+    public event?: Event
+    public member?: Member
     public attendanceEventActivityTypes: AttendanceEventActivityType[];
         
     constructor (){

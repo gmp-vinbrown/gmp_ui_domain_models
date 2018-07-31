@@ -4,12 +4,12 @@ import { Member } from './member';
 export class Program {
     programId: number;
     schoolId: number;
-    name: string;
+    name?: string;
     durationDays: number;
     baseFee: number;
-    description: string;
+    description?: string;
 
-    school: School;
+    school?: School;
     members: Member[];
 
     constructor() {

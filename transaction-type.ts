@@ -4,7 +4,7 @@ export class TransactionType {
     
     transactionTypeId: number;
     name: string;
-    description: string;
+    description?: string;
 
     payments: Payment[];
     

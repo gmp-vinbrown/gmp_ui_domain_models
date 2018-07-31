@@ -7,11 +7,11 @@ export class Payment {
     paymentId: number;
     transactionTypeId: number;
     memberId: number;
-    notes: string;
+    notes?: string;
     transactionDate: Date;
     amount: number
 
-    member: Member;
+    member?: Member;
     transactionType: TransactionType;
     registrations: EventRegistration[];
 

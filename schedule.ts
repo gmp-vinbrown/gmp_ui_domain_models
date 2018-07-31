@@ -1,6 +1,7 @@
 import { Event } from './event';
+import { AuditableEntity } from './auditable-entity';
 
-export class Schedule {
+export class Schedule extends AuditableEntity {
     scheduleId: number;
     eventId: number;
 
@@ -9,8 +10,8 @@ export class Schedule {
     /// Example: 1|3|5 represents an event that meets on Monday, Wednesday and Friday.
     /// </summary>
     days: string;
-    startTime: string;
-    durationMinutes: number;
+    startTime?: string;
+    durationMinutes?: number;
 
-    event: Event;
+    event?: Event;
 }

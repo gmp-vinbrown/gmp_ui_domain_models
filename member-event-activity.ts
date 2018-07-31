@@ -5,9 +5,9 @@ export class MemberEventActivity{
     memberEventActivityId: number;
     memberId: number;
     eventActivityId: number;
-    result: string;
-    notes: string;
+    result?: string;
+    notes?: string;
 
-    eventActivity: EventActivity ;
-    member: Member ;
+    eventActivity?: EventActivity ;
+    member?: Member ;
 }

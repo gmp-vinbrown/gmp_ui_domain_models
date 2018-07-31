@@ -5,6 +5,7 @@ export class EventActivity {
     eventActivityId: number;
     eventId: number;
     eventActivityTypeId: number;
+    
     event: Event;
     eventActivityType: EventActivityType;
     memberEventActivities: MemberEventActivity[];
