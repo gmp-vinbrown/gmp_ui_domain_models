@@ -1,0 +1,19 @@
+{
+  "name": "gmp_ui_domain_models",
+  "version": "1.0.0",
+  "description": "Domain models for the gmp application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmp-vinbrown/gmp_ui_domain_models.git"
+  },
+  "author": "Vinny Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmp-vinbrown/gmp_ui_domain_models/issues"
+  },
+  "homepage": "https://github.com/gmp-vinbrown/gmp_ui_domain_models#readme"
+}
