@@ -1,6 +1,6 @@
 {
   "name": "gmp_ui_domain_models",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Domain models for the gmp application",
   "main": "index.js",
   "scripts": {
