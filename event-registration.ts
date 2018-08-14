@@ -1,6 +1,6 @@
 import { Member } from './member';
 import { Payment } from './payment';
-import { FeeGroup } from './fee-group';
+import { EventFeeGroup } from './event-fee-group';
 import { AuditableEntity } from './auditable-entity';
 
 export class EventRegistration extends AuditableEntity {
@@ -11,7 +11,7 @@ export class EventRegistration extends AuditableEntity {
     paymentId?: number;
 
     event?: Event;
-    eventFeeGroup?: FeeGroup;
+    eventFeeGroup?: EventFeeGroup;
     member?: Member;
     payment?: Payment;
 }
